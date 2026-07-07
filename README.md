@@ -27,7 +27,6 @@ A secure, GUI-based PowerShell utility for IT Helpdesk and System Administrators
 เพื่อให้ผู้ใช้งานทั่วไปเรียกใช้โปรแกรมได้ง่ายขึ้นโดยไม่ต้องคลิกขวา Run with PowerShell คุณสามารถแปลงไฟล์ `.ps1` เป็นไฟล์ `.exe` ได้โดยใช้โมดูล ps2exe
 
 ขั้นตอนการทำ:
-
 1. เปิด PowerShell (Run as Administrator)
 2. ติดตั้งโมดูล `ps2exe` (ทำแค่ครั้งแรกครั้งเดียว):
    ```bash
@@ -37,7 +36,7 @@ A secure, GUI-based PowerShell utility for IT Helpdesk and System Administrators
    ```bash
    Invoke-ps2exe -InputFile ".\AD_Helpdesk_Tools.ps1" -OutputFile ".\ADHelpdeskTool.exe" -NoConsole
    ```
-(หมายเหตุ: การใช้ Flag `-NoConsole` จะช่วยซ่อนหน้าต่างหน้าจอดำ (CMD) ไว้เบื้องหลัง ทำให้แสดงผลเฉพาะหน้าต่าง GUI ของโปรแกรมเท่านั้น)
+   (หมายเหตุ: การใช้ Flag `-NoConsole` จะช่วยซ่อนหน้าต่างหน้าจอดำ (CMD) ไว้เบื้องหลัง ทำให้แสดงผลเฉพาะหน้าต่าง GUI ของโปรแกรมเท่านั้น)
 
 5. (Optional) หากต้องการใส่ไอคอนให้กับโปรแกรม ให้เตรียมไฟล์ `.ico` ไว้และใช้คำสั่งนี้:
    ```bash

@@ -4,6 +4,21 @@ A secure, GUI-based PowerShell utility for IT Helpdesk and System Administrators
 
 โปรแกรมสำหรับช่วยเหลือ IT Helpdesk ในการจัดการ Active Directory ผ่านหน้าต่าง GUI ที่ใช้งานง่าย ปลอดภัย และไม่ต้องพิมพ์คำสั่ง PowerShell เอง
 
+## 📸 Screenshots (ภาพตัวอย่างการใช้งาน)
+
+| 🔐 Authentication | 👤 User Profile Search |
+| :---: | :---: |
+| ![Login Screen](login.jpg) | ![User Profile](userprofile.jpg) |
+
+| ⚙️ Account Management | 💻 Computer Diagnostics |
+| :---: | :---: |
+| ![Account Management](accountmg.jpg) | ![Computer Info](cominfo.jpg) |
+
+| 📝 Activity Log |
+| :---: | :---: |
+| ![Activity Log](log.jpg) |
+
+---
 ## ✨ Key Features (จุดเด่นของโปรแกรม)
 
 * **User-Friendly GUI:** อินเทอร์เฟซแบบหน้าต่าง (Windows Forms) ใช้งานง่าย ค้นหาได้ทั้ง User และ Computer ในช่องเดียว (Unified Search)
@@ -42,5 +57,8 @@ A secure, GUI-based PowerShell utility for IT Helpdesk and System Administrators
    ```bash
    Invoke-ps2exe -InputFile ".\AD_Helpdesk_Tools.ps1" -OutputFile ".\ADHelpdeskTool.exe" -NoConsole -IconFile ".\your_icon.ico"
    ```
+## ⚖️ License
+Distributed under the MIT License. See LICENSE for more information.
+   
 ## ⚠️ Disclaimer
 โปรดใช้งานอย่างระมัดระวัง ฟีเจอร์บางอย่างเช่นการมอบสิทธิ์ `Local_Admin` ควรกระทำภายใต้นโยบายความปลอดภัยขององค์กร (Company Policy) อย่างเคร่งครัด

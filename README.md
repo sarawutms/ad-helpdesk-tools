@@ -15,7 +15,7 @@ A secure, GUI-based PowerShell utility for IT Helpdesk and System Administrators
 | ![Account Management](img/accountmg.jpg) | ![Computer Info](img/cominfo.jpg) |
 
 | 📝 Activity Log |
-| :---: | :---: |
+| :---: |
 | ![Activity Log](img/log.jpg) |
 
 ---

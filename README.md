@@ -18,26 +18,6 @@ A secure, GUI-based PowerShell utility for IT Helpdesk and System Administrators
 * **Computer Diagnostics:** ตรวจสอบสถานะ AD (Joined/Unjoined), IP Address, วันที่ล็อกอินล่าสุด และดึงรายชื่อ Local User Profiles ภายในเครื่อง (อ่านจาก `C$\Users`)
 * **Built-in Activity Logging:** มีระบบบันทึก Log การทำงานภายในแอปเพื่อให้ตรวจสอบย้อนหลังได้
 
-## 📥 Download & Installation (การดาวน์โหลดและติดตั้ง)
-
-คุณสามารถเลือกดาวน์โหลดโปรแกรมไปใช้งานได้ 2 วิธี:
-
-### Option 1: Download the Executable (.exe) - *Recommended (แนะนำ)*
-วิธีที่ง่ายที่สุดสำหรับผู้ใช้งานทั่วไป คือการดาวน์โหลดไฟล์ที่คอมไพล์แล้วไปรันได้เลย
-1. ไปที่หน้า **[Releases](../../releases)** ของ Repository นี้ (เมนูด้านขวามือของ GitHub)
-2. ดาวน์โหลดไฟล์ `ADHelpdeskTool.exe` เวอร์ชันล่าสุด 
-3. นำไปดับเบิลคลิกเปิดใช้งานบนเครื่องคอมพิวเตอร์ของคุณได้ทันที
-
-### Option 2: Download the Source Code (.ps1)
-สำหรับ IT Admin ที่ต้องการตรวจสอบโค้ดด้วยตัวเอง, นำไปพัฒนาต่อ, หรือต้องการแปลงเป็น `.exe` ด้วยตัวเอง
-1. Clone repository นี้ผ่าน Git:
-   ```bash
-   git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
-   ```
-(หรือกดปุ่มสีเขียว <> Code ด้านบน แล้วเลือก Download ZIP)
-2. แตกไฟล์ ZIP (ถ้ามี)
-3. คลิกขวาที่ไฟล์ AD_Helpdesk_Tools.ps1 แล้วเลือก Run with PowerShell
-
 ## 📋 Prerequisites (สิ่งที่ต้องมี)
 1. เครื่องคอมพิวเตอร์ที่รันโปรแกรมต้อง Join Domain แล้ว 
 2. ติดตั้ง RSAT: Active Directory Domain Services and Lightweight Directory Tools บน Windows

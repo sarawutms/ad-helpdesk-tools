@@ -8,17 +8,18 @@ A secure, GUI-based PowerShell utility for IT Helpdesk and System Administrators
 
 | 🔐 Authentication | 👤 User Profile Search |
 | :---: | :---: |
-| ![Login Screen](img/login.jpg) | ![User Profile](img/userprofile.jpg) |
+| <img src="img/login.jpg" width="100%"> | <img src="img/userprofile.jpg" width="100%"> |
 
 | ⚙️ Account Management | 💻 Computer Diagnostics |
 | :---: | :---: |
-| ![Account Management](img/accountmg.jpg) | ![Computer Info](img/cominfo.jpg) |
+| <img src="img/accountmg.jpg" width="100%"> | <img src="img/cominfo.jpg" width="100%"> |
 
 | 📝 Activity Log |
 | :---: |
-| ![Activity Log](img/log.jpg) |
+| <img src="img/log.jpg" width="100%"> |
 
 ---
+
 ## ✨ Key Features (จุดเด่นของโปรแกรม)
 
 * **User-Friendly GUI:** อินเทอร์เฟซแบบหน้าต่าง (Windows Forms) ใช้งานง่าย ค้นหาได้ทั้ง User และ Computer ในช่องเดียว (Unified Search)
